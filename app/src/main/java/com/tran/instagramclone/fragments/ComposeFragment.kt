@@ -45,7 +45,7 @@ class ComposeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-//        ivPreview = view.findViewById(R.id.imageView)
+        ivPreview = view.findViewById(R.id.imageView)
 //        //set onClickListeners and setup logic
         view.findViewById<Button>(R.id.btnSubmit).setOnClickListener {
             //send post to server without an image
